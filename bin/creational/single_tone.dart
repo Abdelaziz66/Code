@@ -5,9 +5,6 @@ class SingleTone {
   int counter = 0;
   static SingleTone? _instance;
   static final _lockObj = Lock();
-
-  SingleTone() {}
-
   static SingleTone? getInstance() {
     if (_instance == null) {
       _lockObj.synchronized(() {
