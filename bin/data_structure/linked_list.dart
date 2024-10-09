@@ -1,7 +1,3 @@
-
-
-
-
 class Data {
   String? name;
   Data({required this.name});
