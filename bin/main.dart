@@ -10,6 +10,7 @@ import 'design_pattern/creation/abstract_factory.dart';
 import 'problem_solving/238.dart';
 import 'design_pattern/structural/proxy.dart';
 import 'design_pattern/structural/decorator.dart';
+import 'design_pattern/structural/adapter.dart';
 
 void main(List<String> arguments)async {
 
@@ -26,8 +27,8 @@ void main(List<String> arguments)async {
  // callProxyPattern();
  // callDecoratorPattern();
  // print( Solution.reverseVowels('IceCreAm'));
- print( Solution.productExceptSelf([1,2,3,4]));
-
+ // print( Solution.productExceptSelf([1,2,3,4]));
+ callAdapterPattern();
 }
 
 
