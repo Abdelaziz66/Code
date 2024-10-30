@@ -7,7 +7,7 @@ import 'algorithm/selection_sort.dart';
 import 'design_pattern/creation/builder.dart';
 import 'design_pattern/creation/factory_method.dart';
 import 'design_pattern/creation/abstract_factory.dart';
-import 'problem_solving/151.dart';
+import 'problem_solving/238.dart';
 import 'design_pattern/structural/proxy.dart';
 import 'design_pattern/structural/decorator.dart';
 
@@ -26,7 +26,7 @@ void main(List<String> arguments)async {
  // callProxyPattern();
  // callDecoratorPattern();
  // print( Solution.reverseVowels('IceCreAm'));
- print( Solution.reverseWords('the sky is blue'));
+ print( Solution.productExceptSelf([1,2,3,4]));
 
 }
 
