@@ -2,8 +2,6 @@ class Solution {
  static List<int> productExceptSelf(List<int> nums) {
     int n = nums.length;
     List<int> answer = List.filled(n, 1);
-
-    // Calculate the left products for each element
     int leftProduct = 1;
     for (int i = 0; i < n; i++) {
       answer[i] = leftProduct;
