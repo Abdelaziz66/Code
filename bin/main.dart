@@ -1,9 +1,9 @@
 
-import 'problem_solving_leet_code/392.dart';
+import 'problem_solving_leet_code/724.dart';
 
 
 void main(List<String> arguments) async {
 
-  print(Solution.isSubsequence('abc', 'ahbgdc'));
+  print(Solution.pivotIndex([1,2,3]));
 
 }
